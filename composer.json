@@ -1,0 +1,28 @@
+{
+    "name": "yfktn/spsescraper2",
+    "description": "SPSE Scraper",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yfktn\\Spsescraper2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yfktn",
+            "email": "friskantoni@gmail.com"
+        }
+    ],
+    "require": {
+        "league/climate": "^3.8",
+        "nesbot/carbon": "^2.62",
+        "symfony/panther": "^2.0",
+        "symfony/css-selector": "^6.1",
+        "rakibtg/sleekdb": "^2.14",
+        "league/csv": "^9.0"
+    },
+    "require-dev": {
+        "dbrekelmans/bdi": "^1.0"
+    }
+}
